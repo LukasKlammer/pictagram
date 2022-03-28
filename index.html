@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="img/icons/pictagram_logo.png">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <script src="script/templates.js"></script>
+    <script src="script/data.js"></script>
+    <script src="script/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body onload="render()">
+    <div class="header">
+        <span onclick="notImplemented()" class="header-font">Pictagram</span>
+        <input onkeyup="renderSearchedPosts()" class="header-search" id="search-post-text" placeholder="Suchen" type="text">
+        <div onclick="notImplemented()" class="header-icons">
+            <img src="img/icons/home-7-24.png" alt="">
+            <img src="img/icons/send_24_30deg.png" alt="">
+            <img src="img/icons/add-24.png" alt="">
+            <img src="img/icons/compass-2-24.png" alt="">
+            <img src="img/icons/favorite-3-24.png" alt="">
+            <img src="img/icons/user-24.png" alt="">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="feeds-stories">
+            <div class="stories" id="stories">
+                <!-- here are rendered all the loadet stories -->
+            </div>
+            <div class="posts-container" id="posts-container">
+
+            </div>
+        </div>
+        <div class="suggestions">
+            <div class="own-account">
+                <img src="img/profile_pictures/lukas-klammer.jpg" alt="">
+                <div class="own-account-designation">
+                    <span class="nickname">luk.kmr</span>
+                    <span class="account-additional-infos">Lukas Klammer</span>
+                </div>
+                <button class="submit-button" onclick="notImplemented()">Wechseln</button>
+            </div>
+            <span class="headline-suggestions">Vorschläge für dich</span>
+            <div class="suggested-users-container" id="suggested-users">
+
+            </div>
+            <span onclick="notImplemented()" class="general-infos">Info - Hilfe - Presse - API - Jobs - Datenrichtlinie - Nutzungsbedingungen -
+                Standorte - Top-Konten - Hashtags - Sprache</span><br><br>
+            <span class="general-infos">© 2022 PICTRAGRAM FROM LUKAS KLAMMER</span>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
