@@ -23,19 +23,12 @@
     }
 
     .header-search {
-        margin-top: 12px;
-        margin-bottom: 18px;
+        margin-top: 8px;
+        margin-bottom: 12px;
         width: 70%;
     }
-}
 
-
-/* @media (max-width: 350px) {
     .header-icons {
         display: none;
     }
-
-    .header {
-        justify-content: center;
-    }
-} */
+}
