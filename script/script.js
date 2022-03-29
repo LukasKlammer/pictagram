@@ -56,6 +56,8 @@ function renderSearchedPosts() {
 /** function gets the value of the header-input field and looks in all posts for the input text - gives back a new array with the found posts*/
 function getSearchedPosts() {
     let searchInput = document.getElementById('search-post-text').value;
+    searchInput = searchInput.toLowerCase(); // convert to small letters
+    console.log(searchInput);
     let foundPosts = posts.filter(post => post.nickname.includes(searchInput) || post.location.includes(searchInput));
     return foundPosts;
 }
