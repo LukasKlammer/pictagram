@@ -98,14 +98,14 @@ function renderSuggestedUsers() {
 }
 
 
-/** */
+/**changes the like-image (heart) */
 function like(i) {
     document.getElementById('not-like-image-' + i).classList.add('d-none');
     document.getElementById('like-image-' + i).classList.remove('d-none');
 }
 
 
-/** */
+/**changes the like-image (heart)  */
 function dislike(i) {
     document.getElementById('like-image-' + i).classList.add('d-none');
     document.getElementById('not-like-image-' + i).classList.remove('d-none');
